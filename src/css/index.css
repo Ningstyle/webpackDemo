@@ -1,0 +1,202 @@
+body{
+	width: 100%;
+	height: 100%;
+	/* overflow: hidden */
+}
+.Head{
+	/* width: 1920px; */
+}
+.TipLiy{
+	background-color: rgba(86,61,124,.15);
+	margin: 0;
+}
+.TipLiy div{
+	padding: 40px 0;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.TipLiy1 div{
+	overflow: hidden
+}
+.TipLiy1 div img{
+	object-fit: cover;
+	width:100%
+}
+.bannerX {
+    height: 385px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 !important;
+}
+#SidBaner{
+	height: 385px;
+}
+#SidBaner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.Flobox{
+	/* height: 79px; */
+	line-height: 79px;
+	background: url('../static/Untitled-2.jpg');
+	background-size: cover;
+	/* padding: 0 !important; */
+}
+.Visitbox {
+    height: 79px;
+    line-height: 79px;
+    color: rgba(231,231,231,1);
+    padding-left: 35px !important;
+    padding-right: 0 !important;
+    box-sizing: border-box;
+    float: left;
+    font-size: 18px;
+    font-family: HiraginoSansGB-W3;
+    font-weight: normal;
+}
+.Visitbox span {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #fff;
+    line-height: 54px;
+}
+.userBox {
+    height: 79px;
+    float: left;
+    line-height: 79px;
+    color: rgba(231,231,231,1);
+    font-size: 17px;
+    padding-left: 95px !important;
+    box-sizing: border-box;
+}
+.userBox span {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Arial;
+    line-height: 54px;
+    color: #fff;
+}
+.AduserBox {
+    height: 79px;
+    float: left;
+    line-height: 79px;
+    color: rgba(231,231,231,1);
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 95px !important;
+}
+.AduserBox span {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Arial;
+    color: #fff;
+    line-height: 54px;
+}
+.ColREs span{
+	color: #d80000;
+}
+.deMandBox{
+	height: auto;
+	overflow: hidden;
+	padding: 0 !important;
+}
+.DemandXList,.Demanddanti{
+	height: 800px;
+	margin-top: 25px;
+}
+.DemandXList header{
+	height: 45px;
+	background: url('../static/bar2.jpg');
+	background-size: cover;
+}
+.DemandXList header div{
+	line-height: 45px;
+}
+.Axbf{
+	float: left;
+	font-size: 20px;
+	color:#fff;
+	font-weight: bold;
+	padding-left: 60px;
+	box-sizing: border-box
+}
+.LokMore{
+	float: right
+}
+.LokMore{
+	color: #fff;
+	font-size: 14px;
+	padding-right: 125px;
+	box-sizing: border-box
+}
+.Demanddanti header{
+	width: 92%;
+	background: #d80000;
+	height: 45px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 45px;
+	transform: skewX(-40deg);
+}
+.Demanddanti header span{
+	width: 52%;
+    height: 45px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	line-height: 45px;
+	transform: skewX(40deg);
+	padding-left: 25px;
+}
+@media screen and (min-width:320px) and (max-width: 767px) {
+  	.bannerX {
+	    height: 180px;
+	    margin-top: 40px;
+	}
+	#SidBaner{
+		height: 180px
+	}
+	.swiper-button-next, .swiper-button-prev{
+		height: 17px !important;
+		margin-top: -8px !important;
+	}
+	.Visitbox{
+		border-bottom: 1px solid #fff;
+	}
+	.userBox{
+		padding-left: 74px !important;
+		border-bottom: 1px solid #fff;
+	}
+	.AduserBox{
+		padding-left: 82px !important;
+	}
+	.Demanddanti header{
+		width: 90%;
+		margin-left: 19px;
+	}
+
+}
+@media screen and (min-width:768px) and (max-width: 1024px){
+		.bannerX {
+		    height: 300px;
+		}
+		#SidBaner{
+			height: 300px
+		}
+		.Visitbox{
+			padding-left: 220px !important;
+			border-bottom: 1px solid #fff;
+		}
+		.userBox{
+			padding-left: 255px !important;
+			border-bottom: 1px solid #fff;
+		}
+		.AduserBox{
+			padding-left: 274px !important;
+		}
+}
